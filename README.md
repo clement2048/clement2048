@@ -6,21 +6,14 @@
 
 *♪ Game Boy 开机音效 ~♪*
 
-<!-- 闪电动画：SMIL 动画，GitHub 沙箱原生支持，零外部依赖 -->
-<svg width="280" height="36" viewBox="0 0 280 36" xmlns="http://www.w3.org/2000/svg">
-  <g font-family="monospace" font-size="14" fill="#FFD700" text-anchor="middle">
-    <text x="140" y="24">
-      ⚡ 必 须 全 部 分 析 ！
-      <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
-    </text>
+<!-- 左右大闪电 + 中央闪烁文字：用 32 像素 ⚡ 字符 + SMIL，零依赖、明显可见 -->
+<svg width="340" height="56" viewBox="0 0 340 56" xmlns="http://www.w3.org/2000/svg">
+  <g font-size="32" text-anchor="middle">
+    <text x="24" y="38" fill="#FFD700">⚡<animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/></text>
+    <text x="316" y="38" fill="#FFD700">⚡<animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite"/></text>
   </g>
-  <g fill="#FFD700">
-    <polygon points="22,4 28,4 24,16 30,16 20,32 24,20 18,20">
-      <animate attributeName="opacity" values="1;0;1;0;1" dur="1.6s" repeatCount="indefinite"/>
-    </polygon>
-    <polygon points="258,4 264,4 260,16 266,16 256,32 260,20 254,20">
-      <animate attributeName="opacity" values="0;1;0;1;0" dur="1.6s" repeatCount="indefinite"/>
-    </polygon>
+  <g font-family="monospace" font-size="14" fill="#FFD700" text-anchor="middle">
+    <text x="170" y="34">⚡ 必 须 全 部 分 析 ！<animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/></text>
   </g>
 </svg>
 
@@ -34,7 +27,7 @@
 ║  出  身      中山大学 · 关都        ║
 ║  派  系      ★ 研究者联盟 ★        ║
 ╠════════════════════════════════════╣
-║   "必须全部分析！"                  ║
+║   "Gotta analyze 'em all!"        ║
 ╚════════════════════════════════════╝
 ```
 
@@ -58,13 +51,22 @@
 
 **皮卡丘** ⚡ Lv.42
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="80">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="96" alt="皮卡丘">
 
-```
-HP   ████████░░ 80%
-MP   ██████████ 100%
-XP   ████░░░░░░ 40%
-```
+<!-- HP 条：SVG 矩形 + SMIL animate 实现"受伤掉血"动画 -->
+<svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg" font-family="monospace" font-size="10">
+  <text x="0" y="9" fill="#22c55e">HP</text>
+  <rect x="22" y="2" width="180" height="10" fill="#1a1a1a" rx="2"/>
+  <rect x="22" y="2" width="144" height="10" fill="#22c55e" rx="2">
+    <animate attributeName="width" values="180;120;180" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="0" y="25" fill="#3b82f6">MP</text>
+  <rect x="22" y="18" width="180" height="10" fill="#1a1a1a" rx="2"/>
+  <rect x="22" y="18" width="180" height="10" fill="#3b82f6" rx="2"/>
+  <text x="0" y="41" fill="#f59e0b">XP</text>
+  <rect x="22" y="34" width="180" height="10" fill="#1a1a1a" rx="2"/>
+  <rect x="22" y="34" width="72" height="10" fill="#f59e0b" rx="2"/>
+</svg>
 
 `状态：准备就绪`  
 `招式 1：Git 推送`   (威力 80)  
@@ -78,13 +80,22 @@ XP   ████░░░░░░ 40%
 
 **审稿人 #2** 🧐 Lv.???
 
-<img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/mew_gb.png" width="80">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif" width="96" alt="梦幻">
 
-```
-HP   ██████░░░░ 60%
-MP   ████░░░░░░ 40%
-XP   ████████░░ 80%
-```
+<!-- HP 条：审稿人 HP 缓慢恢复动画（暗示其不断"找茬"） -->
+<svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg" font-family="monospace" font-size="10">
+  <text x="0" y="9" fill="#22c55e">HP</text>
+  <rect x="22" y="2" width="180" height="10" fill="#1a1a1a" rx="2"/>
+  <rect x="22" y="2" width="108" height="10" fill="#22c55e" rx="2">
+    <animate attributeName="width" values="108;160;108" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="0" y="25" fill="#3b82f6">MP</text>
+  <rect x="22" y="18" width="180" height="10" fill="#1a1a1a" rx="2"/>
+  <rect x="22" y="18" width="72" height="10" fill="#3b82f6" rx="2"/>
+  <text x="0" y="41" fill="#f59e0b">XP</text>
+  <rect x="22" y="34" width="180" height="10" fill="#1a1a1a" rx="2"/>
+  <rect x="22" y="34" width="144" height="10" fill="#f59e0b" rx="2"/>
+</svg>
 
 `状态：充满敌意`  
 `招式 1：拒稿（未读）`     (威力 90)  
@@ -125,16 +136,16 @@ XP   ████████░░ 80%
 
 ---
 
-## 🐉 我的队伍  *(6/6)*
+## 🐉 我的队伍  *(6/6 · 宝可梦 GO 风格大图)*
 
 <table>
 <tr>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="64"><br><b>皮卡丘</b><br>⚡ Lv.42</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="64"><br><b>妙蛙种子</b><br>🌿 Lv.36</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" width="64"><br><b>小火龙</b><br>🔥 Lv.38</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="64"><br><b>杰尼龟</b><br>💧 Lv.34</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" width="64"><br><b>伊布</b><br>⭐ Lv.40</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/150.gif" width="64"><br><b>超梦</b><br>🧠 Lv.50</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="96"><br><b>皮卡丘</b><br>⚡ Lv.42</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="96"><br><b>妙蛙种子</b><br>🌿 Lv.36</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" width="96"><br><b>小火龙</b><br>🔥 Lv.38</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="96"><br><b>杰尼龟</b><br>💧 Lv.34</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" width="96"><br><b>伊布</b><br>⭐ Lv.40</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/150.gif" width="96"><br><b>超梦</b><br>🧠 Lv.50</td>
 </tr>
 <tr>
 <td align="center"><sub>PyTorch<br>异常检测<br>主战</sub></td>
@@ -143,6 +154,32 @@ XP   ████████░░ 80%
 <td align="center"><sub>PostgreSQL<br>Pipeline<br>数据</sub></td>
 <td align="center"><sub>CrewAI<br>多智能体<br>多面</sub></td>
 <td align="center"><sub>论文写作<br>学术论证<br>首领</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center">
+
+<svg width="240" height="32" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <circle cx="20" cy="16" r="14" fill="#F8D030" stroke="#000" stroke-width="1.5"/>
+    <text x="20" y="20" font-size="14" text-anchor="middle">⚡</text>
+    <text x="42" y="20" font-family="monospace" font-size="11" fill="#fff">电</text>
+  </g>
+  <g transform="translate(60,0)">
+    <circle cx="20" cy="16" r="14" fill="#7AC74C" stroke="#000" stroke-width="1.5"/>
+    <text x="20" y="20" font-size="14" text-anchor="middle">🌿</text>
+    <text x="42" y="20" font-family="monospace" font-size="11" fill="#fff">草·毒</text>
+  </g>
+  <g transform="translate(150,0)">
+    <circle cx="20" cy="16" r="14" fill="#EE8130" stroke="#000" stroke-width="1.5"/>
+    <text x="20" y="20" font-size="14" text-anchor="middle">🔥</text>
+    <text x="42" y="20" font-family="monospace" font-size="11" fill="#fff">火</text>
+  </g>
+</svg>
+
+</td>
 </tr>
 </table>
 
@@ -176,11 +213,18 @@ XP   ████████░░ 80%
 
 <div align="center">
 
+<!-- 底部"按 START 继续"SVG 闪烁 -->
+<svg width="320" height="40" viewBox="0 0 320 40" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="monospace" font-size="18" text-anchor="middle">
+    <text x="160" y="26" fill="#9bbc0f">► 按 START 继续<animate attributeName="opacity" values="1;0.15;1" dur="1.0s" repeatCount="indefinite"/></text>
+  </g>
+</svg>
+
 ```
 ╔════════════════════════════════════╗
 ║  > 存档并退出？                   ║
 ║                                  ║
-║   按  START  继续                 ║
+║   训练师，明天继续冒险！          ║
 ╚════════════════════════════════════╝
 ```
 
