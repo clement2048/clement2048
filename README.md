@@ -2,9 +2,27 @@
 
 # 🎮 训练师图鉴 v.2048 🎮
 
-<img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/pika_gb.png" width="120" alt="皮卡丘">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="120" alt="皮卡丘">
 
 *♪ Game Boy 开机音效 ~♪*
+
+<!-- 闪电动画：SMIL 动画，GitHub 沙箱原生支持，零外部依赖 -->
+<svg width="280" height="36" viewBox="0 0 280 36" xmlns="http://www.w3.org/2000/svg">
+  <g font-family="monospace" font-size="14" fill="#FFD700" text-anchor="middle">
+    <text x="140" y="24">
+      ⚡ 必 须 全 部 分 析 ！
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g fill="#FFD700">
+    <polygon points="22,4 28,4 24,16 30,16 20,32 24,20 18,20">
+      <animate attributeName="opacity" values="1;0;1;0;1" dur="1.6s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="258,4 264,4 260,16 266,16 256,32 260,20 254,20">
+      <animate attributeName="opacity" values="0;1;0;1;0" dur="1.6s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+</svg>
 
 ```
 ╔════════════════════════════════════╗
@@ -40,7 +58,7 @@
 
 **皮卡丘** ⚡ Lv.42
 
-<img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/pika_gb.png" width="80">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="80">
 
 ```
 HP   ████████░░ 80%
@@ -111,12 +129,12 @@ XP   ████████░░ 80%
 
 <table>
 <tr>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/pika_gb.png" width="64"><br><b>皮卡丘</b><br>⚡ Lv.42</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/bulba_gb.png" width="64"><br><b>妙蛙种子</b><br>🌿 Lv.36</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/charm_gb.png" width="64"><br><b>小火龙</b><br>🔥 Lv.38</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/squir_gb.png" width="64"><br><b>杰尼龟</b><br>💧 Lv.34</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/eevee_gb.png" width="64"><br><b>伊布</b><br>⭐ Lv.40</td>
-<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/gb/mewtwo_gb.png" width="64"><br><b>超梦</b><br>🧠 Lv.50</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="64"><br><b>皮卡丘</b><br>⚡ Lv.42</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="64"><br><b>妙蛙种子</b><br>🌿 Lv.36</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" width="64"><br><b>小火龙</b><br>🔥 Lv.38</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="64"><br><b>杰尼龟</b><br>💧 Lv.34</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" width="64"><br><b>伊布</b><br>⭐ Lv.40</td>
+<td align="center" width="16%"><img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/150.gif" width="64"><br><b>超梦</b><br>🧠 Lv.50</td>
 </tr>
 <tr>
 <td align="center"><sub>PyTorch<br>异常检测<br>主战</sub></td>
