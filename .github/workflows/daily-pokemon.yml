@@ -1,0 +1,34 @@
+name: Update Daily Pokemon
+
+# 每天 UTC 00:00 自动跑一次（关都限定 1-151 号宝可梦）
+# 也支持手动触发（workflow_dispatch），方便首次激活时立即跑一次
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run daily-pokemon script
+        run: python scripts/daily-pokemon.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && echo "no changes, skipping commit" && exit 0
+          git commit -m "chore(daily): update today's pokemon [skip ci]"
+          git push

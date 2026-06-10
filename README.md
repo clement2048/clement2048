@@ -1,75 +1,154 @@
 <div align="center">
 
-# 🎴 TRAINER CARD 🎴
+# 🎮 POKéDEX TRAINER v.2048 🎮
 
-<img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/pika.png" width="96" alt="Pikachu">
+<img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/pika_gb.png" width="120" alt="Pikachu">
 
-### *Gotta analyze 'em all!* ⚡🔬
+*♪ Game Boy startup sound ~♪*
+
+```
+╔════════════════════════════════════╗
+║  POKéDEX  TRAINER  v.2048          ║
+╠════════════════════════════════════╣
+║  钟明廷 · MINGTING ZHONG           ║
+║  ID       2048                     ║
+║  CLASS    GRADUATE RESEARCHER      ║
+║  ORIGIN   SYU · P.R. KANTON        ║
+║  TEAM     ★ TEAM RESEARCHERS ★     ║
+╠════════════════════════════════════╣
+║   "Gotta analyze 'em all!"        ║
+╚════════════════════════════════════╝
+```
 
 </div>
 
 ---
 
-## 🪪 训练师档案 (Trainer Profile)
+## ⚔️  WILD BATTLE  ⚔️
 
-| 字段 | 信息 |
-|---|---|
-| **训练师姓名** | 钟明廷 (Mingting Zhong) |
-| **训练师 ID** | `2048` |
-| **起始日** | 2026-06 |
-| **出身地** | Sun Yat-sen University · P.R. Kanton |
-| **派系** | 🔴 Team Researchers |
-| **训练师等级** | Lv. 26 — Pokémon Doctoral Researcher |
+<table>
+<thead>
+<tr>
+<th align="left">🟢 TRAINER</th>
+<th></th>
+<th align="right">RIVAL 🔴</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">
+
+**Pikachu** ⚡ Lv.42
+
+<img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/pika_gb.png" width="80">
+
+```
+HP   ████████░░ 80%
+MP   ██████████ 100%
+XP   ████░░░░░░ 40%
+```
+
+`STATUS: READY`  
+`MOVE 1: Git Push` (PWR 80)  
+`MOVE 2: Quick Sort` (PWR 50)  
+`MOVE 3: Code Review` (PWR 60)  
+`MOVE 4: Cite Source` (PWR 45)
+
+</td>
+<td valign="middle" align="center"><b><br>VS<br><br></b></td>
+<td valign="top" align="right">
+
+**Paper Reviewer #2** 🧐 Lv.???
+
+<img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/mew_gb.png" width="80">
+
+```
+HP   ██████░░░░ 60%
+MP   ████░░░░░░ 40%
+XP   ████████░░ 80%
+```
+
+`STATUS: HOSTILE`  
+`MOVE 1: Reject Without Reading` (PWR 90)  
+`MOVE 2: Demand More Experiments` (PWR 75)  
+`MOVE 3: Comments Are Contradictory` (PWR 85)  
+`MOVE 4: Reviewer #3 Disagrees` (PWR ??)
+
+</td>
+</tr>
+</tbody>
+</table>
+
+```
+▶ ⚡ Pikachu used "Git Push"!
+  ▶ It's super effective!
+  ▶ Critical hit!  33 damage.
+  ▶ Paper Reviewer flinched!
+  ▶ Conference Deadline is also attacking...
+```
 
 ---
 
-## 🏆 关都徽章墙 (Kanto Badges)
+## 🌟 TODAY'S PARTNER  *(auto-refreshed daily at 00:00 UTC)*
 
-| # | 徽章 | 道馆 | 属性 | 馆主 | 状态 |
-|---|---|---|---|---|---|
-| 1 | 🪨 岩石 Boulder | 深灰市 Pewter | Rock | 小刚 Brock | ✅ |
-| 2 | 💧 流水 Cascade | 浅黄市 Cerulean | Water | 小霞 Misty | ✅ |
-| 3 | ⚡ 橘色 Thunder | 枯叶市 Vermilion | Electric | 马志士 Lt. Surge | ✅ |
-| 4 | 🌿 彩虹 Rainbow | 彩虹市 Celadon | Grass | 艾莉佳 Erika | ✅ |
-| 5 | 🟣 灵魂 Soul | 紫罗兰镇 Fuchsia | Poison | 阿桔 Koga | ✅ |
-| 6 | 🔮 瀑布 Marsh | 山吹市 Saffron | Psychic | 娜姿 Sabrina | ✅ |
-| 7 | 🔥 火山 Volcano | 红莲岛 Cinnabar | Fire | 夏伯 Blaine | ✅ |
-| 8 | 🌍 地球 Earth | 联盟 Indigo Plateau | Mixed | 青绿 Blue | 🔄 进行中 |
+<!-- DAILY_POKEMON_START -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png" width="120" alt="Pinsir">
+
+**No.127  Pinsir**  ·  Bug
+
+*Press any button to battle!*
+
+<sub>🕐 Refreshed: 2026-06-10 UTC · auto · <a href="https://pokeapi.co/api/v2/pokemon/127">source</a></sub>
+
+</div>
+<!-- DAILY_POKEMON_END -->
 
 ---
 
-## 🐉 我的队伍 (My Party — 6 只上限)
+## 🐉 MY PARTY  *(6/6)*
 
-| 位置 | 宝可梦 | 属性 | 等级 | 训练方向 |
-|---|---|---|---|---|
-| 1 | <img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/pika.png" width="48"> **Pikachu** ⚡ | Electric | Lv. 42 | 主战 — Python / PyTorch / 异常检测 |
-| 2 | <img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/bulba.png" width="48"> **Bulbasaur** 🌿 | Grass/Poison | Lv. 36 | 学术 — NetworkX / 图神经网络 / 文献调研 |
-| 3 | <img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/charm.png" width="48"> **Charmander** 🔥 | Fire | Lv. 38 | 系统 — Linux / Bash / Git 工程化 |
-| 4 | <img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/squir.png" width="48"> **Squirtle** 💧 | Water | Lv. 34 | 数据 — PostgreSQL / 数据 Pipeline / ETL |
-| 5 | <img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/eevee.png" width="48"> **Eevee** ⭐ | Normal | Lv. 40 | 多面 — 多智能体 / CrewAI / 提示词工程 |
-| 6 | <img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/mewtwo.png" width="48"> **Mewtwo** 🧠 | Psychic | Lv. 50 | Boss — 论文写作 / 学术论证 / 顶层设计 |
+<table>
+<tr>
+<td align="center" width="16%"><img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/pika_gb.png" width="64"><br><b>PIKACHU</b><br>⚡ Lv.42</td>
+<td align="center" width="16%"><img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/bulba_gb.png" width="64"><br><b>BULBASAUR</b><br>🌿 Lv.36</td>
+<td align="center" width="16%"><img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/charm_gb.png" width="64"><br><b>CHARMANDER</b><br>🔥 Lv.38</td>
+<td align="center" width="16%"><img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/squir_gb.png" width="64"><br><b>SQUIRTLE</b><br>💧 Lv.34</td>
+<td align="center" width="16%"><img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/eevee_gb.png" width="64"><br><b>EEVEE</b><br>⭐ Lv.40</td>
+<td align="center" width="16%"><img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/gb/mewtwo_gb.png" width="64"><br><b>MEWTWO</b><br>🧠 Lv.50</td>
+</tr>
+<tr>
+<td align="center"><sub>PyTorch<br>异常检测<br>主战</sub></td>
+<td align="center"><sub>NetworkX<br>图神经网络<br>学术</sub></td>
+<td align="center"><sub>Linux · Bash<br>Git · 自动化<br>系统</sub></td>
+<td align="center"><sub>PostgreSQL<br>Pipeline<br>数据</sub></td>
+<td align="center"><sub>CrewAI<br>多智能体<br>多面</sub></td>
+<td align="center"><sub>论文写作<br>学术论证<br>Boss</sub></td>
+</tr>
+</table>
 
 > 队伍已满 6 只 — 想加入新成员需先退役一只。
 
 ---
 
-## 🗺️ 当前主线任务 (Main Quest)
+## 🗺️ MAIN QUEST
 
-- 🔴 **挑战地球徽章 (Earth Badge)** — 博士论文 *"基于舆情的加密货币市场异常活动检测"*
+- 🔴 **主线任务** — *基于舆情的加密货币市场异常活动检测*
 - 🟡 **支线任务** — 多智能体系统在金融时序分析中的应用
 - 🟢 **已完成挑战** — TSFM × GNN 跨领域研究 · 加密货币舆情数据 Pipeline · 异常检测提示词体系
 
 ---
 
-## 🎒 训练师背包 (Bag)
+## 🎒 BAG
 
 - 🛠️ **装备**: `Python` · `PyTorch` · `LangChain` · `CrewAI` · `PostgreSQL` · `Obsidian`
-- 📚 **道具**: [Obsidian 知识库](https://github.com/clement2048/obsidian-note) · 研究提示词库
+- 📚 **道具**: 研究提示词库 · 论文阅读笔记 · 异常检测提示词体系
 - 🎯 **兴趣**: 多智能体协作 · 异常检测 · 时间序列预测 · 舆情分析 · 提示词工程
 
 ---
 
-## 📡 通讯方式 (PokéNav)
+## 📡 POKéNAV
 
 - 📞 **邮件**: zhongmt@mail2.sysu.edu.cn
 - 🌐 **全球网络**: [github.com/clement2048](https://github.com/clement2048)
@@ -80,14 +159,12 @@
 <div align="center">
 
 ```
-  ╭─────────────────────────────╮
-  │  ⚡  PIKACHU used Git Push! │
-  │                              │
-  │       It's super effective!  │
-  ╰─────────────────────────────╯
+╔════════════════════════════════════╗
+║  > SAVE & QUIT?                   ║
+║                                  ║
+║   PRESS  START  TO  RESUME       ║
+╚════════════════════════════════════╝
 ```
-
-<img src="https://raw.githubusercontent.com/clement2048/clement2048/main/assets/sprites/mew.png" width="48" alt="Mew">
 
 *"The future belongs to those who analyze the data."*
 
