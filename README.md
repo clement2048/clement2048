@@ -16,10 +16,6 @@
 
 `多智能体协作` · `异常检测` · `时间序列预测` · `舆情分析` · `提示词工程`
 
-## ✍️ 笔记
-
-我在 [Obsidian 知识库](https://github.com/clement2048/obsidian-note) 里持续记录研究笔记、论文阅读与提示词设计。
-
 ## 📫 联系方式
 
 - Email: zhongmt@mail2.sysu.edu.cn
