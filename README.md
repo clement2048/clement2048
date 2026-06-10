@@ -6,16 +6,10 @@
 
 *♪ Game Boy 开机音效 ~♪*
 
-<!-- 左右大闪电 + 中央闪烁文字：用 32 像素 ⚡ 字符 + SMIL，零依赖、明显可见 -->
-<svg width="340" height="56" viewBox="0 0 340 56" xmlns="http://www.w3.org/2000/svg">
-  <g font-size="32" text-anchor="middle">
-    <text x="24" y="38" fill="#FFD700">⚡<animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/></text>
-    <text x="316" y="38" fill="#FFD700">⚡<animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite"/></text>
-  </g>
-  <g font-family="monospace" font-size="14" fill="#FFD700" text-anchor="middle">
-    <text x="170" y="34">⚡ 必 须 全 部 分 析 ！<animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/></text>
-  </g>
-</svg>
+<!-- 左右闪电交替闪烁：用 animated GIF 替代（GitHub 沙箱不支持 SMIL animate） -->
+<img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/anim/lightning_alt.gif" width="80" alt="⚡⚡">
+
+**⚡ 必 须 全 部 分 析 ！**
 
 ```
 ╔════════════════════════════════════╗
@@ -53,20 +47,8 @@
 
 <img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="96" alt="皮卡丘">
 
-<!-- HP 条：SVG 矩形 + SMIL animate 实现"受伤掉血"动画 -->
-<svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg" font-family="monospace" font-size="10">
-  <text x="0" y="9" fill="#22c55e">HP</text>
-  <rect x="22" y="2" width="180" height="10" fill="#1a1a1a" rx="2"/>
-  <rect x="22" y="2" width="144" height="10" fill="#22c55e" rx="2">
-    <animate attributeName="width" values="180;120;180" dur="3.2s" repeatCount="indefinite"/>
-  </rect>
-  <text x="0" y="25" fill="#3b82f6">MP</text>
-  <rect x="22" y="18" width="180" height="10" fill="#1a1a1a" rx="2"/>
-  <rect x="22" y="18" width="180" height="10" fill="#3b82f6" rx="2"/>
-  <text x="0" y="41" fill="#f59e0b">XP</text>
-  <rect x="22" y="34" width="180" height="10" fill="#1a1a1a" rx="2"/>
-  <rect x="22" y="34" width="72" height="10" fill="#f59e0b" rx="2"/>
-</svg>
+<!-- HP 条：用 animated GIF 替代 SMIL 矩形动画 -->
+<img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/anim/hp_drain.gif" width="220" alt="HP 掉血动画">
 
 `状态：准备就绪`  
 `招式 1：Git 推送`   (威力 80)  
@@ -82,20 +64,8 @@
 
 <img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif" width="96" alt="梦幻">
 
-<!-- HP 条：审稿人 HP 缓慢恢复动画（暗示其不断"找茬"） -->
-<svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg" font-family="monospace" font-size="10">
-  <text x="0" y="9" fill="#22c55e">HP</text>
-  <rect x="22" y="2" width="180" height="10" fill="#1a1a1a" rx="2"/>
-  <rect x="22" y="2" width="108" height="10" fill="#22c55e" rx="2">
-    <animate attributeName="width" values="108;160;108" dur="2.8s" repeatCount="indefinite"/>
-  </rect>
-  <text x="0" y="25" fill="#3b82f6">MP</text>
-  <rect x="22" y="18" width="180" height="10" fill="#1a1a1a" rx="2"/>
-  <rect x="22" y="18" width="72" height="10" fill="#3b82f6" rx="2"/>
-  <text x="0" y="41" fill="#f59e0b">XP</text>
-  <rect x="22" y="34" width="180" height="10" fill="#1a1a1a" rx="2"/>
-  <rect x="22" y="34" width="144" height="10" fill="#f59e0b" rx="2"/>
-</svg>
+<!-- 审稿人 HP 缓慢恢复：暗示"不断找茬" -->
+<img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/anim/hp_recover.gif" width="220" alt="HP 恢复动画">
 
 `状态：充满敌意`  
 `招式 1：拒稿（未读）`     (威力 90)  
@@ -157,6 +127,7 @@
 </tr>
 </table>
 
+<!-- 宝可梦属性徽章（3 个示例） -->
 <table>
 <tr>
 <td align="center">
@@ -213,12 +184,8 @@
 
 <div align="center">
 
-<!-- 底部"按 START 继续"SVG 闪烁 -->
-<svg width="320" height="40" viewBox="0 0 320 40" xmlns="http://www.w3.org/2000/svg">
-  <g font-family="monospace" font-size="18" text-anchor="middle">
-    <text x="160" y="26" fill="#9bbc0f">► 按 START 继续<animate attributeName="opacity" values="1;0.15;1" dur="1.0s" repeatCount="indefinite"/></text>
-  </g>
-</svg>
+<!-- 底部"按 START 继续"用 animated GIF 替代 SMIL 闪烁 -->
+<img src="https://cdn.jsdelivr.net/gh/clement2048/clement2048@main/assets/sprites/anim/start_blink.gif" width="200" alt="按 START 继续">
 
 ```
 ╔════════════════════════════════════╗
