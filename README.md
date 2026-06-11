@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/127.png" width="120" alt="凯罗斯">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/27.png" width="120" alt="穿山鼠">
 
-**No.127  凯罗斯**  ·  虫
+**No.027  穿山鼠**  ·  地面
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-06-10 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/127">数据源</a></sub>
+<sub>🕐 刷新时间：2026-06-11 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/27">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
