@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/124.png" width="120" alt="迷唇姐">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/30.png" width="120" alt="尼多娜">
 
-**No.124  迷唇姐**  ·  冰 · 超能力
+**No.030  尼多娜**  ·  毒
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-06-17 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/124">数据源</a></sub>
+<sub>🕐 刷新时间：2026-06-18 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/30">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
