@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/30.png" width="120" alt="尼多娜">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/119.png" width="120" alt="金鱼王">
 
-**No.030  尼多娜**  ·  毒
+**No.119  金鱼王**  ·  水
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-06-18 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/30">数据源</a></sub>
+<sub>🕐 刷新时间：2026-06-19 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/119">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
