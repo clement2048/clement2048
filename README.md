@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/73.png" width="120" alt="毒刺水母">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/65.png" width="120" alt="胡地">
 
-**No.073  毒刺水母**  ·  水 · 毒
+**No.065  胡地**  ·  超能力
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-08-09 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/73">数据源</a></sub>
+<sub>🕐 刷新时间：2026-08-10 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/65">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
