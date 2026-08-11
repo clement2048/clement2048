@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/65.png" width="120" alt="胡地">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/39.png" width="120" alt="胖丁">
 
-**No.065  胡地**  ·  超能力
+**No.039  胖丁**  ·  一般 · 妖精
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-08-10 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/65">数据源</a></sub>
+<sub>🕐 刷新时间：2026-08-11 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/39">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
