@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/130.png" width="120" alt="暴鲤龙">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/44.png" width="120" alt="臭臭花">
 
-**No.130  暴鲤龙**  ·  水 · 飞行
+**No.044  臭臭花**  ·  草 · 毒
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-08-28 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/130">数据源</a></sub>
+<sub>🕐 刷新时间：2026-08-29 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/44">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
