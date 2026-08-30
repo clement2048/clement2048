@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/44.png" width="120" alt="臭臭花">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/42.png" width="120" alt="大嘴蝠">
 
-**No.044  臭臭花**  ·  草 · 毒
+**No.042  大嘴蝠**  ·  毒 · 飞行
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-08-29 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/44">数据源</a></sub>
+<sub>🕐 刷新时间：2026-08-30 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/42">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
