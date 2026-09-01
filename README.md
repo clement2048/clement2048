@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/116.png" width="120" alt="墨海马">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/39.png" width="120" alt="胖丁">
 
-**No.116  墨海马**  ·  水
+**No.039  胖丁**  ·  一般 · 妖精
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-08-31 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/116">数据源</a></sub>
+<sub>🕐 刷新时间：2026-09-01 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/39">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
