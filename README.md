@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/45.png" width="120" alt="霸王花">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/96.png" width="120" alt="催眠貘">
 
-**No.045  霸王花**  ·  草 · 毒
+**No.096  催眠貘**  ·  超能力
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-10-01 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/45">数据源</a></sub>
+<sub>🕐 刷新时间：2026-10-02 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/96">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
