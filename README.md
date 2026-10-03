@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/96.png" width="120" alt="催眠貘">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/29.png" width="120" alt="尼多兰">
 
-**No.096  催眠貘**  ·  超能力
+**No.029  尼多兰**  ·  毒
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-10-02 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/96">数据源</a></sub>
+<sub>🕐 刷新时间：2026-10-03 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/29">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
