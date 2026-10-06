@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/122.png" width="120" alt="魔墙人偶">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/127.png" width="120" alt="凯罗斯">
 
-**No.122  魔墙人偶**  ·  超能力 · 妖精
+**No.127  凯罗斯**  ·  虫
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-10-05 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/122">数据源</a></sub>
+<sub>🕐 刷新时间：2026-10-06 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/127">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
