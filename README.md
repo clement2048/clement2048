@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/39.png" width="120" alt="胖丁">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/45.png" width="120" alt="霸王花">
 
-**No.039  胖丁**  ·  一般 · 妖精
+**No.045  霸王花**  ·  草 · 毒
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-10-09 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/39">数据源</a></sub>
+<sub>🕐 刷新时间：2026-10-10 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/45">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
