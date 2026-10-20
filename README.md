@@ -93,13 +93,13 @@
 <!-- DAILY_POKEMON_START -->
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/42.png" width="120" alt="大嘴蝠">
+<img src="https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon/other/official-artwork/96.png" width="120" alt="催眠貘">
 
-**No.042  大嘴蝠**  ·  毒 · 飞行
+**No.096  催眠貘**  ·  超能力
 
 *按任意键开始对战！*
 
-<sub>🕐 刷新时间：2026-10-19 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/42">数据源</a></sub>
+<sub>🕐 刷新时间：2026-10-20 UTC · 自动 · <a href="https://pokeapi.co/api/v2/pokemon/96">数据源</a></sub>
 
 </div>
 <!-- DAILY_POKEMON_END -->
